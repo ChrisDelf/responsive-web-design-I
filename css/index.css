@@ -1,3 +1,540 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: flex;
+	Justify-content: space-evenly;
+}
+body {
+	line-height: 1;
+	line-height: 1;
+	max-width: 100%;
+	width: 860px;
+	margin: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into r wor work from yesterday here and start to refactor into flexbox *rk from yesterday here and start to refactor into flexbox *flexbox */
+
+
+.headerCon
+{
+
+	display: flex;
+	justify-content: space-evenly;
+        flex-wrap: wrap;
+ }
+
+
+
+ @media(max-width: 800px) {
+
+.codeImage {
+
+  display:none;
+}
+
+.topLogo {
+
+  order: -6;
+  margin-right: 20px;
+
+}
+
+.upperBodyFlex{
+
+  justify-content:center;
+
+
+
+
+}
+
+.bodyFlexItem
+ {
+
+    width:400px;
+    height:300px;
+
+}
+
+
+}
+
+
+@media(max-width: 500px){
+
+
+.topLogo {
+  order: -6;
+  margin:20px;
+  margin-left: 150px;
+}
+
+
+.headerCon{
+
+  flex-direction:column;
+  width:500px;
+  text-align:center;
+
+
+}
+.upperBodyFlex{
+
+  justify-content:center;
+
+
+
+
+}
+.bodyFlexItem
+ {
+
+    width:400px;
+    height:300px;
+
+}
+nav a
+{
+	font-size: 200%;
+	text-decoration: none ;
+	color:gray;
+
+
+	border-bottom:2px solid black;
+
+
+
+}
+nav
+ {
+      width:500px;
+      height: 240px;
+      display:flex;
+      flex-direction: column;
+      margin-bottom:20px;
+      text-align:center;
+
+
+    }
+
+ .topContainer {
+
+  flex-direction:column;
+
+ }
+
+ .bottomPara{
+
+   flex-direction:column;
+ }
+
+ .middle-img{
+  width:100%;
+  height:20%;
+
+ }
+
+
+}
+
+
+
+ .logo
+ {
+/*	display:inline-flex; */
+
+
+}
+
+.topLogo
+{
+    width:190px;
+    height: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+nav a
+{
+	text-decoration: none ;
+	color:gray;
+	display:inline-flex;
+	justify-content:center;
+	margin-right:15px;
+
+}
+
+
+
+
+ nav
+ {
+
+
+    	font-size: 120%;
+	word-spacing: 30px;
+    }
+
+    .codeImage{
+
+    margin-bottom:20px;
+
+
+
+    }
+
+ .upperBodyFlex
+ {
+    justify-content:center;
+    Display:flex;
+
+}
+
+
+ .bodyFlexItem
+ {
+    justify-content:center;
+    width:300px;
+    height:300px;
+
+
+}
+
+ h1 {
+    margin:40px;
+    font-size: 50px;
+    width:100px;
+    text-align:center;
+
+ }
+
+ .getStarted
+ {
+	font-size:20px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 50px;
+	border-radius: 1px;
+	width: 175px;
+	height: 45px;
+	text-align: center;
+
+    }
+
+.getStarted p
+
+{
+
+    margin-top: 10px;
+
+
+
+}
+.getStarted:hover
+
+{
+
+	background: lightsteelblue;
+ }
+
+ .topContainer
+ {
+    display:flex;
+    justify-content: center;
+    border-top: 2px solid black;
+
+
+ }
+
+ .topPara h3 {
+
+  margin:7px;
+
+
+ }
+  .topPara p {
+
+  margin:7px;
+
+
+ }
+
+ .topPara div h3{
+
+   margin:7px;
+ }
+
+ .bottomPara
+
+ {
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+
+}
+
+.middle-img
+
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    width:100%;
+
+
+}
+
+.item1
+
+{
+    margin: 10px;
+
+}
+
+.ending
+{
+    display:flex;
+    flex-direction:column;
+
+}
+.ending h3
+
+{
+    margin: 6px;
+
+}
+.ending p
+
+{
+  margin: 4px;
+
+
+}
+
+.address
+
+{
+    height: 65px;
+    width: 120px;
+
+
+}
+
+
+
+footer {
+	display:flex;
+	justify-content: center;
+
+
+
+}
+
+h3
+{
+    margin-top: 6px;
+
+
+}
+
+ .centeringH{
+
+   justify-content: center;
+   width:200px;
+
+ }
+
+.services-header-img{
+
+  width:100%;
+}
+.servicesImgCon
+  {
+	display:flex;
+	width: 100%;
+	justify-content:center;
+	margin: 10px;
+  }
+
+@media(max-width: 500px) {
+
+  .services-info-img{
+
+      display:none;
+
+    }
+
+}
+
+.servicesContain {
+	display: flex;
+	flex-direction: row ;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+
+  }
+
+
+
+ .mainBody {
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+
+
+ }
+
+ .bodyFlex .item1 {
+	border: 1px solid black;
+	width: 300px;
+	margin: 30px;
+	background: lightgray;
+ }
+
+.bodyFlex {
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   justify-content: space-evenly;
+
+
+
+}
+
+ .button1{
+	padding: 5px 20px;
+	background: white;
+	border: 1px sold gray;
+	margin: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+
+ }
+.button1:hover {
+
+	background: lightsteelblue;
+
+}
+
+ .mainBody h2 {
+	margin: 4px;
+	padding: 5px 5px;
+
+ }
+
+ .mainBody p {
+
+	margin: 6px;
+
+
+ }
+
+@media(max-width:800px) {
+.services-info-img {
+
+    width:50%;
+    height:50%;
+
+}
+
+
+}
+
+
+ .endingSec{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+ }
+
+
+ .item2{
+	height: 300px;
+	width: 420px;
+	margin: 5px;
+
+ }
+
+
+
+li {
+	margin: 4px;
+	padding: 5px 5px;
+
+}
+
+.footerFlex{
+ display:flex;
+ justify-content: center;
+ margin-top: 100px;
+
+ }
